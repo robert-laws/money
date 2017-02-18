@@ -15,7 +15,7 @@ const itemsTwo = [
 
 var RuleOf72 = (props) => {
   return (
-    <Container id="topDiv">
+    <Container className="topDiv">
       <Segment color="teal">
         <Header as="h2">Rule of 72</Header>
         <Divider />

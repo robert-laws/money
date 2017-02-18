@@ -30,7 +30,7 @@ var EffectiveRate = React.createClass({
   },
   onClearValues: function(e) {
     e.preventDefault();
-    var form = document.getElementById("SRTForm");
+    var form = document.getElementById("SERForm");
     form.reset();
     this.setState({formData: {}, ER: 0, IR: 0});
   },
@@ -93,11 +93,11 @@ var EffectiveRate = React.createClass({
   },
   render() {
     return (
-        <Container id="topDiv">
+        <Container className="topDiv">
           <Segment color="teal">
             <Header as="h2">Effective Rate</Header>
             <Divider />
-            <Form id="SRTForm" onSubmit={this.onFormSubmit}>
+            <Form id="SERForm" onSubmit={this.onFormSubmit}>
               <Form.Group widths="equal">
                 <Form.Input label="Interest Rate" name="interestRate" placeholder="ex. 0.075" />
                 <Form.Select label='Frequency' name='frequency' options={frequencies} placeholder='Frequency' />

@@ -4,13 +4,13 @@ var { Container, Segment, Header, Divider, Label, Form, Input, Button } = requir
 var FindPercentage = require('FindPercentage');
 var SimpleDiscount = require('SimpleDiscount');
 var SimpleDiscountFormula = require('SimpleDiscountFormula');
-var ArithmeticSequences = require('ArithmeticSequences');
+var ArithmeticSequences = require('ArithmeticSequence');
 
 var Chapter2 = React.createClass({
   render() {
     return (
         <div>
-          <Container id="onlyTopDiv">
+          <Container className="onlyTopDiv">
             <Header as="h1">Chapter 2</Header>
           </Container>
           <SimpleDiscount />

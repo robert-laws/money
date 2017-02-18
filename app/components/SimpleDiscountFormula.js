@@ -91,7 +91,7 @@ var SimpleDiscountFormula = React.createClass({
   },
   render() {
     return (
-      <Container id="topDiv">
+      <Container className="topDiv">
         <Segment color="olive">
           <Header as="h2">Simple Discount Formula</Header>
           <Divider />

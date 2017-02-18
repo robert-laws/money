@@ -8,7 +8,7 @@ var Chapter1 = React.createClass({
   render() {
     return (
         <div>
-          <Container id="onlyTopDiv">
+          <Container className="onlyTopDiv">
             <Header as="h1">Chapter 1</Header>
           </Container>
           <SimpleInterest />

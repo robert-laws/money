@@ -71,7 +71,7 @@ var CompoundInterest = React.createClass({
   },
   render() {
     return (
-        <Container id="topDiv">
+        <Container className="topDiv">
           <Segment color="teal">
             <Header as="h2">Compound Interest</Header>
             <Divider />

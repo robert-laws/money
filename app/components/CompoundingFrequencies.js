@@ -152,11 +152,11 @@ var CompoundingFrequencies = React.createClass({
   },
   render() {
     return (
-        <Container id="topDiv">
+        <Container className="topDiv">
           <Segment color="teal">
             <Header as="h2">Compounding Frequencies</Header>
             <Divider />
-              <Form id="CIFreqForm" onSubmit={this.onFormSubmit}>
+            <Form id="CIFreqForm" onSubmit={this.onFormSubmit}>
               <Form.Group widths="equal">
                 <Form.Input label="Future Value" name="futureValue" placeholder="ex. 9500.50" /> =
                 <Form.Input label="Present Value" name="presentValue" placeholder="ex. 5000" />

@@ -291,12 +291,12 @@ img.logo {
   padding-right: 2px;
 }
 
-div#onlyTopDiv {
+div.onlyTopDiv {
   margin-top: 70px;
   margin-bottom: -30px;
 }
 
-div#topDiv {
+div.topDiv {
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -410,4 +410,8 @@ p.smallerText {
 
 .ui.segment {
   border-radius: 0 !important;
+}
+
+span.strong {
+  font-weight: bold;
 }

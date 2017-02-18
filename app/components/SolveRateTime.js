@@ -133,7 +133,7 @@ var SolveRateTime = React.createClass({
   },
   render() {
     return (
-        <Container id="topDiv">
+        <Container className="topDiv">
           <Segment color="teal">
             <Header as="h2">Solve for Rate and Time</Header>
             <Divider />

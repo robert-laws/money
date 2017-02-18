@@ -95,7 +95,7 @@ var SimpleInterest = React.createClass({
   },
   render() {
     return (
-      <Container id="topDiv">
+      <Container className="topDiv">
         <Segment color="orange">
           <Header as="h2">Simple Interest</Header>
           <Divider />

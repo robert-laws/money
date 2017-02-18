@@ -9,6 +9,7 @@ var Page404 = require('Page404');
 var Chapter1 = require('Chapter1');
 var Chapter2 = require('Chapter2');
 var Chapter3 = require('Chapter3');
+var Chapter4 = require('Chapter4');
 var FindPercentage = require('FindPercentage');
 var CompoundInterest = require('CompoundInterest');
 var CompoundingFrequencies = require('CompoundingFrequencies');
@@ -18,8 +19,13 @@ var EffectiveRate = require('EffectiveRate');
 var SimpleInterest = require('SimpleInterest');
 var SimpleDiscount = require('SimpleDiscount');
 var SimpleDiscountFormula = require('SimpleDiscountFormula');
-var ArithmeticSequences = require('ArithmeticSequences');
-var GeometricSequences = require('ArithmeticSequences');
+var ArithmeticSequences = require('ArithmeticSequence');
+var GeometricSequences = require('GeometricSequence');
+var AnnuityDefinitions = require('AnnuityDefinitions');
+var FutureAnnuity = require('FutureAnnuity');
+var AnnuityDue = require('AnnuityDue');
+var PresentAnnuity = require('PresentAnnuity');
+var PresentDue = require('PresentDue');
 
 ReactDOM.render(
 <Router history={hashHistory}>
@@ -43,6 +49,13 @@ ReactDOM.render(
       <Route path="rule-of-72" component={RuleOf72} />
       <Route path="effective-rate" component={EffectiveRate} />
       <Route path="geometric-sequences" component={GeometricSequences} />
+    </Route>
+    <Route path="chapter4" component={Chapter4}>
+      <Route pather="annuity-definitions" component={AnnuityDefinitions} />
+      <Route pather="future-annuity" component={FutureAnnuity} />
+      <Route pather="annuity-due" component={AnnuityDue} />
+      <Route pather="present-annuity" component={PresentAnnuity} />
+      <Route pather="present-due" component={PresentDue} />
     </Route>
     <Route path="*" component={Page404} />
   </Route>

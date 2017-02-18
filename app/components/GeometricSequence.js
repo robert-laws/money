@@ -57,7 +57,7 @@ var GeometricSequences = React.createClass({
   },
   render() {
     return (
-      <Container id="topDiv">
+      <Container className="topDiv">
         <Segment color="red">
           <Header as="h2">Geometric Sequence</Header>
           <Divider />

@@ -7,13 +7,13 @@ var CompoundingFrequencies = require('CompoundingFrequencies');
 var SolveRateTime = require('SolveRateTime');
 var RuleOf72 = require('RuleOf72');
 var EffectiveRate = require('EffectiveRate');
-var GeometricSequences = require('GeometricSequences');
+var GeometricSequences = require('GeometricSequence');
 
 var Chapter3 = React.createClass({
   render() {
     return (
         <div>
-          <Container id="onlyTopDiv">
+          <Container className="onlyTopDiv">
             <Header as="h1">Chapter 3</Header>
           </Container>
           <CompoundInterest />
@@ -21,11 +21,11 @@ var Chapter3 = React.createClass({
           <SolveRateTime />
           <EffectiveRate />
           <RuleOf72 />
-          <Container id="onlyTopDiv">
+          <Container className="onlyTopDiv">
             <Header as="h1">Sequences</Header>
           </Container>
           <GeometricSequences />
-          <Container id="onlyTopDiv">
+          <Container className="onlyTopDiv">
             <Header as="h1">Utilities</Header>
           </Container>
           <FindPercentage />

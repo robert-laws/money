@@ -50,7 +50,7 @@ var SimpleDiscount = React.createClass({
   },
   render() {
     return (
-      <Container id="topDiv">
+      <Container className="topDiv">
         <Segment color="olive">
           <Header as="h2">Simple Discount</Header>
           <Divider />

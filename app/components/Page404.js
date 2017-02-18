@@ -4,7 +4,7 @@ var { Container } = require('semantic-ui-react');
 var Page404 = React.createClass({
     render() {
         return (
-            <Container id="topDiv">
+            <Container className="topDiv">
                 <h1>404 Error - Page Not Found</h1>
             </Container>
         )

@@ -1,14 +1,14 @@
 {
-  "name": "robdlaws_2017_web",
+  "name": "money",
   "version": "1.0.0",
-  "description": "robdlaws website",
+  "description": "money website",
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/robert-laws/robdlaws_web_2017"
+    "url": "git+https://github.com/robert-laws/money.git"
   },
   "author": "Robert Laws",
   "license": "MIT",

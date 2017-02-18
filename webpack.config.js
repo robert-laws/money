@@ -18,26 +18,12 @@ module.exports = {
 	},
     resolve: {
      root: __dirname,
+		 modulesDirectories: [
+			 'node_modules',
+			 './app/components'
+		 ],
      alias: {
-       Main: 'app/components/Main.js',
-       WebMenu: 'app/components/WebMenu.js',
-       Home: 'app/components/Home.js',
-       Footer: 'app/components/Footer.js',
-       Page404: 'app/components/Page404.js',
-			 Chapter1: 'app/components/Chapter1.js',
-			 Chapter2: 'app/components/Chapter2.js',
-			 Chapter3: 'app/components/Chapter3.js',
-			 FindPercentage: 'app/components/FindPercentage.js',
-			 CompoundInterest: 'app/components/CompoundInterest.js',
-			 CompoundingFrequencies: 'app/components/CompoundingFrequencies.js',
-			 SolveRateTime: 'app/components/SolveRateTime.js',
-			 RuleOf72: 'app/components/RuleOf72.js',
-			 EffectiveRate: 'app/components/EffectiveRate.js',
-			 SimpleInterest: 'app/components/SimpleInterest.js',
-			 SimpleDiscount: 'app/components/SimpleDiscount.js',
-			 SimpleDiscountFormula: 'app/components/SimpleDiscountFormula.js',
-			 ArithmeticSequences: 'app/components/ArithmeticSequence.js',
-			 GeometricSequences: 'app/components/GeometricSequence.js'
+       applicationStyles: 'app/styles/ui.scss'
      }
    },
 	module: {
