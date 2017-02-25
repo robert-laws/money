@@ -12,6 +12,7 @@ var WebMenu = React.createClass({
             <Link className="item" activeClassName="active" to="/chapter2">Chapter 2</Link>
             <Link className="item" activeClassName="active" to="/chapter3">Chapter 3</Link>
             <Link className="item" activeClassName="active" to="/chapter4">Chapter 4</Link>
+            <Link className="item" activeClassName="active" to="/chapter12">Chapter 12</Link>
           </div>
         </div>
       )
