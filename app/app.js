@@ -11,6 +11,7 @@ var Chapter2 = require('Chapter2');
 var Chapter3 = require('Chapter3');
 var Chapter4 = require('Chapter4');
 var Chapter12 = require('Chapter12');
+var Chapter6 = require('Chapter6');
 var FindPercentage = require('FindPercentage');
 var CompoundInterest = require('CompoundInterest');
 var CompoundingFrequencies = require('CompoundingFrequencies');
@@ -29,6 +30,9 @@ var PresentAnnuity = require('PresentAnnuity');
 var PresentDue = require('PresentDue');
 var SalesTax = require('SalesTax');
 var TaxableIncome = require('TaxableIncome');
+var Dividend = require('Dividend');
+var DividendYield = require('DividendYield');
+var CapitalGains = require('CapitalGains');
 
 ReactDOM.render(
 <Router history={hashHistory}>
@@ -63,6 +67,11 @@ ReactDOM.render(
     <Route path="chapter12" component={Chapter12}>
       <Route path="sales-tax" component={SalesTax} />
       <Route path="taxable-income" component={TaxableIncome} />
+    </Route>
+    <Route path="chapter6" component={Chapter6}>
+      <Route path="dividend" component={Dividend} />
+      <Route path="dividend-yield" component={DividendYield} />
+      <Route path="capital-gains" component={CapitalGains} />
     </Route>
     <Route path="*" component={Page404} />
   </Route>
